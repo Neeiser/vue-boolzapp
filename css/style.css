@@ -22,6 +22,18 @@ ul{
     list-style: none;
 }
 
+i{
+    color: var(--gray);
+    transform: scale(150%);
+    margin: 0px 10px;
+}
+
+i:hover{
+    color: var(--gray-hover);
+    transform: scale(150%);
+    cursor: pointer;
+}
+
 /* 
 ----------------------------------------------
 ----------------MAIN SECTION------------------
@@ -83,18 +95,6 @@ ul{
 .alt-self-profile{
     display: flex;
     align-items: center;
-}
-
-.alt-self-icons i{
-    color: var(--gray);
-    transform: scale(150%);
-    margin: 0px 10px;
-}
-
-.alt-self-icons i:hover{
-    color: var(--gray-hover);
-    transform: scale(150%);
-    cursor: pointer;
 }
 
 /* 
@@ -237,6 +237,33 @@ ul{
 }
 
 .chat-active{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 70px;
     background-color: #eaeaea;
+    padding: 0px 10px;
+}
+
+.chat-info{
+    display: flex;
+    align-items: center;
+}
+
+.chat-info-img{
+    margin-right: 20px;
+}
+
+.chat-info-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-info-desc span:first-child{
+    font-size: 1.1rem;
+}
+
+.chat-info-desc span:last-child{
+    font-size: 0.8rem;
+    color: var(--gray);
 }
