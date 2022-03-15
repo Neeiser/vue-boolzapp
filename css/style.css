@@ -7,6 +7,7 @@
 
 :root{
     --gray: #b1b1b1;
+    --gray-hover: #8a8a8a;
     --yellow-bg: #dadbd3;
     --light-blue-bg: #009688;
     --blue-notify: #8edafc;
@@ -60,12 +61,10 @@ ul{
 }
 
 .app-left-top{
-    width: 100%;
     height: 200px;
 }
 
 .app-left-bottom{
-    width: 100%;
     height: 650px;
 }
 
@@ -94,7 +93,7 @@ ul{
 }
 
 .alt-self-icons i:hover{
-    color: #8a8a8a;
+    color: var(--gray-hover);
     transform: scale(150%);
     cursor: pointer;
 }
