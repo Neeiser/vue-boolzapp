@@ -64,7 +64,6 @@ img{
     justify-content: space-between;
     padding: 0px 10px;
     height: 70px;
-    border: 1px solid violet;
 }
 
 .alt-self-profile{
@@ -92,6 +91,30 @@ img{
 .app-left-top-notify{
     height: 70px;
     background-color: #8edafc;
+    display: flex;
+    align-items: center;
+}
+
+.app-left-top-notify i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #8edafc;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.alt-notify-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.alt-notify-text a{
+    font-size: 0.8rem;
+    color: black;
 }
 
 /* 
