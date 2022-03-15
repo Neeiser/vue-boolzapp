@@ -9,6 +9,7 @@
     --gray: #b1b1b1;
     --yellow-bg: #dadbd3;
     --light-blue-bg: #009688;
+    --blue-notify: #8edafc;
 }
 
 img{
@@ -105,7 +106,7 @@ ul{
 
 .app-left-top-notify{
     height: 70px;
-    background-color: #8edafc;
+    background-color: var(--blue-notify);
     display: flex;
     align-items: center;
 }
@@ -115,7 +116,7 @@ ul{
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: #8edafc;
+    color: var(--blue-notify);
     margin: 0 15px;
     width: 40px;
     height: 40px;
@@ -129,7 +130,7 @@ ul{
 
 .alt-notify-text a{
     font-size: 0.8rem;
-    color: black;
+    color: #4d4d4d;
 }
 
 /* 
@@ -179,14 +180,23 @@ ul{
 ------Chats
 */
 
+.app-left-bottom ul{
+    height: 645px;
+    overflow-y: auto;
+}
+
 .app-left-bottom li{
     display: flex;
     position: relative;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .alb-friend-img{
     padding: 0px 10px;
+}
+
+.app-left-bottom img{
+    width: 70px;
 }
 
 .alb-friend-desc{
@@ -194,6 +204,16 @@ ul{
     flex-direction: column;
     justify-content: center;
 }
+
+.alb-friend-desc span:first-child{
+    font-size: 1.1rem;
+}
+
+.alb-friend-desc span:last-child{
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
 
 .alb-friend-date {
     position: absolute;
