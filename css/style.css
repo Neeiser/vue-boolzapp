@@ -289,6 +289,7 @@ i:hover{
     height: 710px;
     background-image: url("../img/mine.jpg");
     padding: 30px 50px;
+    overflow-y: auto;
 }
 
 .chatting{
@@ -320,4 +321,23 @@ i:hover{
     position: absolute;
     bottom: 5px;
     right: 5px;
+}
+
+/* 
+------Right-bottom 3/3
+------chat-text-area
+*/
+
+.chat-text-area{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.chat-text-area input{
+    width: 600px;
+    height: 50px;
+    padding: 20px;
+    border: none;
 }
