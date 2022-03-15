@@ -35,6 +35,10 @@ i:hover{
     cursor: pointer;
 }
 
+li:hover{
+    background-color: white;
+}
+
 .clearfix{
     content: "";
     display: block;
