@@ -230,10 +230,14 @@ i:hover{
 ----------------------------------------------
 */
 
+/* 
+------Right-Top 1/2
+------chat-active
+*/
+
+
 .app-right{
     width: 750px;
-    height: 100%;
-    background-image: url("../img/mine.jpg");
 }
 
 .chat-active{
@@ -266,4 +270,14 @@ i:hover{
 .chat-info-desc span:last-child{
     font-size: 0.8rem;
     color: var(--gray);
+}
+
+/* 
+------Right-middle 2/3
+------chat-conversation
+*/
+
+.chat-conversation{
+    height: 710px;
+    background-image: url("../img/mine.jpg");
 }
