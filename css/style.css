@@ -293,9 +293,11 @@ i:hover{
 
 .chatting{
     width: 300px;
-    min-height: 70px;
+    min-height: 60px;
     border-radius: 10px;
     margin-bottom: 20px;
+    position: relative;
+    padding: 15px;
 }
 
 .my-msg{
@@ -306,4 +308,16 @@ i:hover{
 .your-msg{
     background-color: white;
     float: left;
+}
+
+.chatting span:first-child{
+    font-size: 0.9rem;
+}
+
+.chatting span:last-child{
+    font-size: 0.7rem;
+    color: var(--gray);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
