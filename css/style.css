@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    height: 100vh;
+    background-color: #dadbd3;
+}
+
+.container-top-bg{
+    display: flex;
+    justify-content: center;
+    background-color: #009688;
+    height: 15%;
+}
+
+.app{
+    display: flex;
+    margin-top: 50px;
+    background-color: #eaeaea;
+    height: 800px;
+    width: 1250px;
+}
+
+.app-left{
+    width: 500px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.app-right{
+    width: 750px;
+    height: 100%;
+    background-image: url("../img/mine.jpg");
+    border: 1px solid black;
+}
