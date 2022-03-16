@@ -19,29 +19,28 @@ Pensate bene a come strutturare i dati prima di implementare il codice.
 const app = new Vue({
     el:'.app',
     data:{
-        element: 0,
+        elementActive: 0,
         contacts:[
             {
                 name: 'Michele',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_1.jpg',
-                visible: true,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },

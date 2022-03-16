@@ -43,7 +43,7 @@
                     </div>
                     <div class="app-left-bottom">
                         <ul>
-                            <li v-for="(item, index) in contacts">
+                            <li v-for="item in contacts">
                                 <div class="alb-friend-img">
                                     <img :src="item.img" alt="">
                                 </div>
@@ -76,10 +76,10 @@
                         </div>
                     </div>
                     <div class="chat-conversation">
-                        <div class="chat-row clearfix" v-for="(item, index) in contacts.msg">
+                        <div class="chat-row clearfix" v-for="item in contacts[elementActive].msg">
                             <div class="chatting my-msg">
-                                <span>{{ item.msg.textMsg }}</span>
-                                <span>{{ item.msg.timeMsg }}</span>
+                                <span>{{ item.textMsg }}</span>
+                                <span>{{ item.timeMsg }}</span>
                             </div>
                         </div>
                         <!-- 
