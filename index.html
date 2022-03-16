@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="chat-conversation">
-                        <div class="chat-row clearfix" v-for="item in contacts[elementActive].msg">
+                        <div class="chat-row clearfix" v-for="(item, index) in contacts[elementActive].msg">
                             <div class="chatting" :class="{ myMsg: item.status, yourMsg: !item.status }">
                                 <span>{{ item.textMsg }}</span>
                                 <span>{{ item.timeMsg }}</span>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="chat-text-area">
                         <i class="far fa-smile"></i>
-                        <input @keydown-enter="sendMessage" v-model.trim='newMessage' type="text" size="1" placeholder="Scrivi un messaggio intimidatorio" name="" id="">
+                        <input @keydown.enter='sendMessage' v-model.trim='newMessage' type="text" size="1" placeholder="Scrivi un messaggio intimidatorio" name="" id="">
                         <i class="fas fa-microphone"></i>
                     </div>
                 </div>
