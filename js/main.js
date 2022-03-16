@@ -240,5 +240,15 @@ const app = new Vue({
                 ]
             },
         ]
+    },
+    methods:{
+        sendMessage: function(){
+            if(this.newMessage !== ''){
+                this.contacts[elementActive].msg.push({
+                    textMsg: this.newMessage, timeMsg: '00:00', status:true
+                })
+                this.newMessage=''
+            }
+        }
     }
 })
