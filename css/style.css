@@ -305,12 +305,12 @@ li:hover{
     padding: 15px;
 }
 
-.my-msg{
+.myMsg{
     background-color: var(--green-msg);
     float: right;
 }
 
-.your-msg{
+.yourMsg{
     background-color: white;
     float: left;
 }

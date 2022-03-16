@@ -49,22 +49,21 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_2.jpg',
-                visible: false,
                 msg: [
                     {
-                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        textMsg: 'Procurami il sale',
                         timeMsg: '15:30',
                         status: 'sent',
                     },
                     {
-                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        textMsg: 'Quanto?.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: 'recived',
                     },
                     {
-                        textMsg: 'Signora ha sbagliato numero.',
+                        textMsg: 'Quanto basta.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: 'sent',
                     }
                 ]
             },
@@ -73,23 +72,27 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_3.jpg',
-                visible: false,
                 msg: [
                     {
-                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        textMsg: 'Ciao!',
                         timeMsg: '15:30',
                         status: 'sent',
                     },
                     {
-                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        textMsg: 'Guarda un po\' chi si rifà vivo...',
                         timeMsg: '15:35',
+                        status: 'recived',
+                    },
+                    {
+                        textMsg: 'In realtà sono morto',
+                        timeMsg: '16:00',
                         status: 'sent',
                     },
                     {
-                        textMsg: 'Signora ha sbagliato numero.',
-                        timeMsg: '16:00',
+                        textMsg: 'Ah! Chiedo scudo...',
+                        timeMsg: '15:35',
                         status: 'recived',
-                    }
+                    },
                 ]
             },
             {
@@ -97,7 +100,6 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_4.jpg',
-                visible: false,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
@@ -121,7 +123,6 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_5.jpg',
-                visible: false,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
@@ -145,7 +146,6 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_6.jpg',
-                visible: false,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
@@ -169,7 +169,6 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_7.jpg',
-                visible: false,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
@@ -193,7 +192,6 @@ const app = new Vue({
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
                 img: 'img/avatar_8.jpg',
-                visible: false,
                 msg: [
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',

@@ -43,7 +43,7 @@
                     </div>
                     <div class="app-left-bottom">
                         <ul>
-                            <li v-for="item in contacts">
+                            <li v-for="(item, index) in contacts" @click="elementActive = index">
                                 <div class="alb-friend-img">
                                     <img :src="item.img" alt="">
                                 </div>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="chat-conversation">
                         <div class="chat-row clearfix" v-for="item in contacts[elementActive].msg">
-                            <div class="chatting my-msg">
+                            <div class="chatting" :class="{ myMsg: item.status, yourMsg: !item.status }">
                                 <span>{{ item.textMsg }}</span>
                                 <span>{{ item.timeMsg }}</span>
                             </div>
