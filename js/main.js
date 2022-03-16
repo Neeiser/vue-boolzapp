@@ -51,6 +51,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_2.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Samuele',
@@ -58,6 +75,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_3.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Alessandro B.',
@@ -65,6 +99,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_4.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Alessandro L.',
@@ -72,6 +123,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_5.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Claudia',
@@ -79,6 +147,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_6.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Federico',
@@ -86,6 +171,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_7.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
             {
                 name: 'Davide',
@@ -93,6 +195,23 @@ const app = new Vue({
                 lastTime: '12:00',
                 img: 'img/avatar_8.jpg',
                 visible: false,
+                msg: [
+                    {
+                        textMsg: 'Hai portato a spasso il drago di Komodo?',
+                        timeMsg: '15:30',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
+                        timeMsg: '15:35',
+                        status: 'sent',
+                    },
+                    {
+                        textMsg: 'Signora ha sbagliato numero.',
+                        timeMsg: '16:00',
+                        status: 'recived',
+                    }
+                ]
             },
         ]
     }
