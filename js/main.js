@@ -247,6 +247,9 @@ const app = new Vue({
                 this.contacts[this.elementActive].msg.push({
                     textMsg: this.newMessage, timeMsg: '00:00', status:true
                 });
+                this.contacts[this.elementActive].msg.push({
+                    textMsg: 'ok', timeMsg: '00:00', status:false
+                });
                 this.newMessage=''
             }
         },
