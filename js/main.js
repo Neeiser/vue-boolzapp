@@ -53,17 +53,17 @@ const app = new Vue({
                     {
                         textMsg: 'Procurami il sale',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quanto?.',
                         timeMsg: '15:35',
-                        status: 'recived',
+                        status: false,
                     },
                     {
                         textMsg: 'Quanto basta.',
                         timeMsg: '16:00',
-                        status: 'sent',
+                        status: true,
                     }
                 ]
             },
@@ -76,22 +76,22 @@ const app = new Vue({
                     {
                         textMsg: 'Ciao!',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Guarda un po\' chi si rifà vivo...',
                         timeMsg: '15:35',
-                        status: 'recived',
+                        status: false,
                     },
                     {
                         textMsg: 'In realtà sono morto',
                         timeMsg: '16:00',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Ah! Chiedo scudo...',
                         timeMsg: '15:35',
-                        status: 'recived',
+                        status: false,
                     },
                 ]
             },
@@ -104,17 +104,17 @@ const app = new Vue({
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },
@@ -127,17 +127,17 @@ const app = new Vue({
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },
@@ -150,17 +150,17 @@ const app = new Vue({
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },
@@ -173,17 +173,17 @@ const app = new Vue({
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },
@@ -196,17 +196,17 @@ const app = new Vue({
                     {
                         textMsg: 'Hai portato a spasso il drago di Komodo?',
                         timeMsg: '15:30',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Quando esci ricordati di prendere il cianuro per la torta di domani... e non dimenticarti le banane di Bronte.',
                         timeMsg: '15:35',
-                        status: 'sent',
+                        status: true,
                     },
                     {
                         textMsg: 'Signora ha sbagliato numero.',
                         timeMsg: '16:00',
-                        status: 'recived',
+                        status: false,
                     }
                 ]
             },
