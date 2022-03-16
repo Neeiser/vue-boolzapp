@@ -24,6 +24,49 @@ const app = new Vue({
                 name: 'Michele',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Fabio',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Samuele',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Alessandro B.',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Alessandro L.',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Claudia',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Federico',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
+            },
+            {
+                name: 'Davide',
+                lastMsg: 'Ultimo messaggio inviato',
+                lastTime: '12:00',
+                img: '',
             },
         ]
     }
