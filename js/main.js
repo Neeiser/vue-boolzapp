@@ -307,9 +307,10 @@ const app = new Vue({
                 }
             })
         },
-        deleteWindow: function(){
+        deleteWindow: function(index){
 
-            showDelete = !showDelete;
+            this.contacts[this.elementActive].msg[index].showDelete = !this.contacts[this.elementActive].msg[index].showDelete
+
         }
     }
 })
