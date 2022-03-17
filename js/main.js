@@ -311,6 +311,10 @@ const app = new Vue({
 
             this.contacts[this.elementActive].msg[index].showDelete = !this.contacts[this.elementActive].msg[index].showDelete
 
+        },
+        deleteMessage: function(index){
+            const inputUser = this.contacts[this.elementActive].msg
+            inputUser.splice( index, 1 );
         }
     }
 })
