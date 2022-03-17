@@ -243,20 +243,18 @@ const app = new Vue({
     },
     methods:{
         sendMessage: function(){
+            const inputUser = this.contacts[this.elementActive].msg
             if(this.newMessage !== ''){
-                this.contacts[this.elementActive].msg.push({
+                inputUser.push({
                     textMsg: this.newMessage, timeMsg: '00:00', status:true
                 });
                 this.newMessage=''
-                this.replyMessage(this.elementActive)
             }
-        },
-        replyMessage(index){
             setTimeout(function() {
-                this.contacts[index].msg.push({
+                inputUser.push({
                     textMsg: 'ok', timeMsg: '00:00', status:false,
                 }); 
             }, 1000);
-        }
+        },
     }
 })
