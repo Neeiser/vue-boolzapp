@@ -288,13 +288,13 @@ const app = new Vue({
             const inputUser = this.contacts[this.elementActive].msg
             if(this.newMessage !== ''){
                 inputUser.push({
-                    textMsg: this.newMessage, timeMsg: '00:00', status:true
+                    textMsg: this.newMessage, timeMsg: '00:00', status:true, showDelete: false,
                 });
                 this.newMessage=''
             }
             setTimeout(function() {
                 inputUser.push({
-                    textMsg: 'ok', timeMsg: '00:00', status:false,
+                    textMsg: 'ok', timeMsg: '00:00', status:false, showDelete: false,
                 }); 
             }, 1000);
         },
