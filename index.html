@@ -38,12 +38,12 @@
                         </div>
                         <div class="app-left-top-search">
                             <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                            <input @keyup="searchContacts" type="text" size="1" placeholder="Cerca o inizia una nuova chat" name="" id="">
+                            <input @keyup="searchContacts" v-model="searchInputText" type="text" size="1" placeholder="Cerca o inizia una nuova chat" name="" id="">
                         </div>
                     </div>
                     <div class="app-left-bottom">
                         <ul>
-                            <li v-for="(item, index) in contacts" @click="elementActive = index">
+                            <li v-for="(item, index) in contacts" @click="elementActive = index" :class="{searchVue: !index.visible}">
                                 <div class="alb-friend-img">
                                     <img :src="item.img" alt="">
                                 </div>

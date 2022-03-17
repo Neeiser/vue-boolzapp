@@ -14,6 +14,8 @@ const app = new Vue({
     data:{
         elementActive: 0,
         newMessage: '',
+        searchInputText:'',
+
         contacts:[
             {
                 name: 'Michele',
@@ -265,7 +267,13 @@ const app = new Vue({
             }, 1000);
         },
         searchContacts: function(){
-
+            this.contacts.forEach(index =>{
+                if(index.name.includes(this.searchInputText)){
+                    index.visible = true;
+                } else{
+                    index.visible = false;
+                }
+            })
         }
     }
 })

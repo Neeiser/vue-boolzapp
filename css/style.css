@@ -183,7 +183,9 @@ li:hover{
     padding: 20px;
 }
 
-
+.searchVue{
+    display: none;
+}
 
 /* 
 ------Left-bottom 1/1
