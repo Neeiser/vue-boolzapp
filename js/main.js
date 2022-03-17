@@ -15,6 +15,8 @@ const app = new Vue({
         elementActive: 0,
         newMessage: '',
         searchInputText:'',
+        now: luxon.DateTime.now().toFormat('HH:mm'),
+        /* now: DateTime.now(), */
 
         contacts:[
             {
@@ -288,13 +290,19 @@ const app = new Vue({
             const inputUser = this.contacts[this.elementActive].msg
             if(this.newMessage !== ''){
                 inputUser.push({
-                    textMsg: this.newMessage, timeMsg: '00:00', status:true, showDelete: false,
+                    textMsg: this.newMessage,
+                    timeMsg: this.now,
+                    status:true,
+                    showDelete: false,
                 });
                 this.newMessage=''
             }
             setTimeout(function() {
                 inputUser.push({
-                    textMsg: 'ok', timeMsg: '00:00', status:false, showDelete: false,
+                    textMsg: 'ok', 
+                    timeMsg: luxon.DateTime.now().toFormat('HH:mm'),
+                    status:false,
+                    showDelete: false,
                 }); 
             }, 1000);
         },
