@@ -302,7 +302,7 @@ li:hover{
     width: 300px;
     min-height: 60px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     position: relative;
     padding: 15px 25px 15px 15px;
 }
@@ -312,6 +312,34 @@ li:hover{
     position: absolute;
     top: 5px;
     right: 0;
+    z-index: 2;
+}
+
+#option-container{
+    display: none;
+    height: 70px;
+    width: 200px;
+    background-color: #009688;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+
+#option-container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-weight: 100;
+    padding: 8px;
+}
+
+#option-container-flex hr{
+    width: 100%;
+}
+
+#option-container-flex span{
+    padding: 5px;
 }
 
 .myMsg{
@@ -324,16 +352,17 @@ li:hover{
     float: left;
 }
 
-.chatting span:first-child{
+.chatting #text-content{
     font-size: 0.9rem;
 }
 
-.chatting span:last-child{
+.chatting #date-content{
     font-size: 0.7rem;
     color: var(--gray);
     position: absolute;
     bottom: 5px;
     right: 5px;
+    z-index: 1;
 }
 
 /* 
