@@ -19,6 +19,7 @@ const app = new Vue({
                 name: 'Michele',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_1.jpg',
                 msg: [
                     {
@@ -42,6 +43,7 @@ const app = new Vue({
                 name: 'Fabio',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_2.jpg',
                 msg: [
                     {
@@ -65,6 +67,7 @@ const app = new Vue({
                 name: 'Samuele',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_3.jpg',
                 msg: [
                     {
@@ -93,6 +96,7 @@ const app = new Vue({
                 name: 'Alessandro B.',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_4.jpg',
                 msg: [
                     {
@@ -126,6 +130,7 @@ const app = new Vue({
                 name: 'Alessandro L.',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_5.jpg',
                 msg: [
                     {
@@ -144,6 +149,7 @@ const app = new Vue({
                 name: 'Claudia',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_6.jpg',
                 msg: [
                     {
@@ -197,6 +203,7 @@ const app = new Vue({
                 name: 'Federico',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_7.jpg',
                 msg: [
                     {
@@ -210,6 +217,7 @@ const app = new Vue({
                 name: 'Davide',
                 lastMsg: 'Ultimo messaggio inviato',
                 lastTime: '12:00',
+                visible: true,
                 img: 'img/avatar_8.jpg',
                 msg: [
                     {
@@ -256,5 +264,8 @@ const app = new Vue({
                 }); 
             }, 1000);
         },
+        searchContacts: function(){
+
+        }
     }
 })
