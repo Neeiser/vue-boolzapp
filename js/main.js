@@ -106,7 +106,7 @@ const app = new Vue({
                         status: true,
                     },
                     {
-                        textMsg: 'Praticamente stavo andando a prendere il latte, quando ad un tratto mi sono dimenticato il cellulare.',
+                        textMsg: 'Praticamente stavo andando a prendere il latte, quando ad un tratto ho notato che mi sono dimenticato il cellulare a casa.',
                         timeMsg: '16:00',
                         status: false,
                     },
@@ -247,11 +247,16 @@ const app = new Vue({
                 this.contacts[this.elementActive].msg.push({
                     textMsg: this.newMessage, timeMsg: '00:00', status:true
                 });
-                this.contacts[this.elementActive].msg.push({
-                    textMsg: 'ok', timeMsg: '00:00', status:false
-                });
                 this.newMessage=''
+                this.replyMessage(this.elementActive)
             }
         },
+        replyMessage(index){
+            setTimeout(function() {
+                this.contacts[index].msg.push({
+                    textMsg: 'ok', timeMsg: '00:00', status:false,
+                }); 
+            }, 1000);
+        }
     }
 })
