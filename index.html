@@ -79,9 +79,9 @@
                         <div class="chat-row clearfix" v-for="(item, index) in contacts[elementActive].msg">
                             <div class="chatting" :class="{ myMsg: item.status, yourMsg: !item.status }">
                                 <span id="text-content">{{ item.textMsg }}</span>
-                                <i class="fas fa-angle-down">
-                                    <div id="option-container">
-                                        <div id="option-container-flex">
+                                <i @click="deleteWindow" class="fas fa-angle-down">
+                                    <div id="optionContainer" v-show="item.showDelete">
+                                        <div id="optionContainerFlex">
                                             <span>Info message</span>
                                             <hr>
                                             <span>Delete message</span>

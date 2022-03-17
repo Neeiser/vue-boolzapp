@@ -315,8 +315,7 @@ li:hover{
     z-index: 2;
 }
 
-#option-container{
-    display: none;
+#optionContainer{
     height: 70px;
     width: 200px;
     background-color: white;
@@ -325,7 +324,7 @@ li:hover{
     z-index: 3;
 }
 
-#option-container-flex{
+#optionContainerFlex{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -334,11 +333,11 @@ li:hover{
     padding: 8px;
 }
 
-#option-container-flex hr{
+#optionContainerFlex hr{
     width: 100%;
 }
 
-#option-container-flex span{
+#optionContainerFlex span{
     padding: 5px;
 }
 

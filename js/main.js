@@ -306,6 +306,10 @@ const app = new Vue({
                     index.visible = false;
                 }
             })
+        },
+        deleteWindow: function(){
+
+            showDelete = !showDelete;
         }
     }
 })
