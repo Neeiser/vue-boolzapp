@@ -268,7 +268,7 @@ const app = new Vue({
         },
         searchContacts: function(){
             this.contacts.forEach(index =>{
-                if(index.name.includes(this.searchInputText)){
+                if(index.name.toLowerCase().includes(this.searchInputText.toLowerCase())){
                     index.visible = true;
                 } else{
                     index.visible = false;
